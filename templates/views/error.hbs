@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{!-- links partial --}}
+    {{>headerlinks}}
+</head>
+
+<body>
+  {{!-- navbar partial --}}
+    {{>navbar}}
+
+    <!-- main content -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left side -->
+            <div class="col-md-12 col-12 main_header_left align-items-center">
+                <figure class="errImg">
+                    <img src="images/404-error.png" alt="404 error" class="img-fluid" title="404 Error">
+                </figure>
+                <p>Welcome to this World</p>
+                <h1 class="errMsg">{{errorMsg}}</h1>
+                <a href="/"><button>Go Back</button></a>
+              </div>
+          </div>
+        </div>
+    </div>            
+
+    {{!-- footer partial --}}
+    {{>footer}}
+</body>
+</html>

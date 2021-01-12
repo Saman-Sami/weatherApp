@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{!-- links partial --}}
+    {{>headerlinks}}
+</head>
+
+<body>
+  {{!-- navbar partial --}}
+    {{>navbar}}
+
+    <!-- main content -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left side -->
+            <div class="col-md-6 col-12 main_header_right">
+                <figure>
+                    <img src="images/young-tiny-girl-sitting-coding-via-laptop-computer-programmer-code-flat-vector-illustration-it-digital-technology_74855-8751.jpg" alt="coding girl" class="img-fluid" title="Saman Sami">
+                </figure>
+              </div>
+
+            <!-- right side -->
+            <div class="col-md-6 col-12 main_header_left">
+                <p>Welcome to Weather App</p>
+                <h1>I am <span class="text_clr">Software Engineering Student</span> and a passionate <span class="text_clr">learner</span></h1>
+                <a href="#"><button>About Me</button></a>
+              </div>
+          </div>
+        </div>
+    </div>            
+
+    {{!-- footer partial --}}
+    {{>footer}}
+</body>
+</html>
